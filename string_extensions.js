@@ -24,7 +24,7 @@ String.prototype.trim = function() {
   return result.toString();
 }
   
-console.log("booo".trim() );
+// console.log("booo".trim() );
 
 
 //console.log("foobar".scramble() );

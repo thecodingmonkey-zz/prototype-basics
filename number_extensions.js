@@ -36,6 +36,6 @@ Number.prototype.submultitractivide = function(number) {
   return result;
 }
 
-var number = 5;
+// var number = 5;
 
-console.log( number.submultitractivide(8) );
+// console.log( number.submultitractivide(8) );

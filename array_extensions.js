@@ -21,11 +21,11 @@ Array.prototype.forEvery = function(x) {
   return result;
 }
 
-console.log(
-  [1,2,4,8].forEvery( function(x) {
-    return x*2;
-  })
-);
+// console.log(
+//   [1,2,4,8].forEvery( function(x) {
+//     return x*2;
+//   })
+// );
 
 
 
