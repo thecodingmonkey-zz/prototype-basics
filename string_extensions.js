@@ -6,6 +6,9 @@ var HALFSIES = 0.5;
 
 String.prototype.scramble = function() {
   var string_array = this.split("");
+
+  // calling sort with a random comparison function.  this makes it swap
+  // half of the time.
   string_array.sort(function() {return (Math.random() > HALFSIES) } );
   return string_array.join("");
 }
@@ -23,8 +26,3 @@ String.prototype.trim = function() {
 
   return result.toString();
 }
-  
-// console.log("booo".trim() );
-
-
-//console.log("foobar".scramble() );

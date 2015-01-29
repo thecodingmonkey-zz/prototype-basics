@@ -12,30 +12,21 @@ Number.prototype.isDivisibleBy = function(modulo) {
 
 Number.prototype.submultitractivide = function(number) {
   var i, result = this;
-//  console.log(this, number);
 
   for(i=0; i < 2; i++) {
     switch (Math.floor(Math.random() * 4)) {
       case 0:
-//        console.log('add');
         result = result + number;
         break;
       case 1:
- //       console.log('sub');
         result = result - number;
         break;
       case 2:
-//        console.log('mult');
         result = result * number;
         break;
       case 3:
-//        console.log('div');
         result = result / number;
     }
   }
   return result;
 }
-
-// var number = 5;
-
-// console.log( number.submultitractivide(8) );

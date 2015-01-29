@@ -7,6 +7,7 @@ Array.prototype.toString = function() {
     result += this[i].toString() + ", ";
   }  
 
+  // remove last ', '
   if (result.length > 0)
   result = result.substr(0, result.length - 2);
 
@@ -20,14 +21,3 @@ Array.prototype.forEvery = function(x) {
   }
   return result;
 }
-
-// console.log(
-//   [1,2,4,8].forEvery( function(x) {
-//     return x*2;
-//   })
-// );
-
-
-
-//console.log([12, "43", null, 44].toString() );
-
